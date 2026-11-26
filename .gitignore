@@ -1,0 +1,11 @@
+_site/
+/output/
+/.workbuddy/
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+tools/.cache/
+tools/.chrome-*/
+tools/.validation/
+tools/validation-*.png

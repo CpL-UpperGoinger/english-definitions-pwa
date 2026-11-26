@@ -1,0 +1,668 @@
+# Common English headwords, hyphenated entries, and phrases.
+# One entry per line. Comments and blank lines are ignored by the builder.
+a
+ability
+able
+about
+above
+accept
+access
+accident
+account
+achieve
+across
+act
+action
+active
+activity
+actually
+add
+address
+adjust
+admit
+adult
+advance
+advantage
+advice
+affect
+afraid
+after
+afternoon
+again
+against
+age
+agency
+agree
+ahead
+air
+airport
+all
+allow
+almost
+alone
+along
+already
+also
+although
+always
+among
+amount
+analysis
+ancient
+and
+animal
+announce
+annual
+another
+answer
+any
+anyone
+anything
+appear
+apple
+application
+apply
+approach
+appropriate
+area
+argue
+arm
+around
+arrange
+arrive
+art
+article
+artist
+as
+ask
+aspect
+assist
+assume
+at
+attach
+attack
+attempt
+attend
+attention
+attitude
+author
+available
+average
+avoid
+away
+baby
+back
+bad
+bag
+balance
+ball
+bank
+base
+basic
+beautiful
+because
+become
+bed
+before
+begin
+behind
+believe
+below
+benefit
+best
+better
+between
+beyond
+big
+bird
+bit
+black
+blue
+body
+book
+both
+box
+boy
+break
+bring
+brother
+build
+building
+business
+busy
+but
+buy
+by
+call
+can
+car
+card
+care
+careful
+carry
+case
+cat
+catch
+cause
+center
+central
+century
+certain
+chance
+change
+character
+check
+child
+choice
+choose
+city
+class
+clean
+clear
+close
+cold
+color
+come
+common
+community
+company
+compare
+complete
+computer
+condition
+consider
+contain
+continue
+control
+cook
+cool
+cost
+could
+country
+couple
+course
+cover
+create
+culture
+cup
+current
+cut
+daily
+dark
+data
+date
+day
+deal
+decide
+decision
+deep
+define
+degree
+deliver
+describe
+design
+detail
+develop
+development
+die
+difference
+different
+difficult
+direction
+discover
+discuss
+do
+doctor
+dog
+door
+down
+draw
+dream
+drink
+drive
+during
+each
+early
+earth
+easy
+eat
+economic
+education
+effect
+effort
+eight
+either
+else
+end
+energy
+enjoy
+enough
+enter
+environment
+especially
+even
+evening
+event
+ever
+every
+everyone
+everything
+example
+experience
+explain
+eye
+face
+fact
+family
+far
+fast
+father
+few
+field
+fill
+final
+finally
+find
+fine
+finish
+fire
+first
+fish
+five
+floor
+flow
+fly
+follow
+food
+foot
+for
+force
+form
+free
+friend
+from
+front
+full
+fun
+future
+game
+garden
+general
+get
+girl
+give
+go
+goal
+good
+great
+green
+ground
+group
+grow
+half
+hand
+happen
+happy
+hard
+have
+he
+head
+health
+hear
+help
+her
+here
+high
+history
+hold
+home
+hope
+hour
+house
+how
+human
+idea
+if
+important
+in
+include
+increase
+information
+inside
+interest
+into
+it
+job
+join
+just
+keep
+key
+kind
+know
+knowledge
+land
+language
+large
+last
+late
+learn
+leave
+left
+less
+let
+letter
+level
+life
+light
+like
+line
+list
+little
+live
+local
+long
+look
+love
+low
+main
+make
+man
+many
+market
+may
+maybe
+me
+mean
+measure
+meet
+mind
+minute
+model
+modern
+moment
+money
+month
+more
+morning
+most
+mother
+move
+much
+music
+must
+my
+name
+natural
+near
+need
+never
+new
+next
+night
+no
+not
+note
+nothing
+now
+number
+of
+off
+offer
+office
+often
+old
+on
+once
+one
+only
+open
+or
+order
+other
+our
+out
+outside
+over
+own
+page
+paper
+part
+people
+person
+place
+plan
+play
+point
+possible
+power
+present
+problem
+process
+produce
+product
+program
+public
+put
+question
+quick
+quite
+read
+ready
+real
+really
+reason
+receive
+record
+red
+remember
+right
+room
+run
+same
+say
+school
+second
+see
+seem
+service
+set
+several
+she
+short
+should
+show
+side
+simple
+since
+small
+so
+some
+something
+sometimes
+sound
+special
+stand
+start
+state
+still
+stop
+story
+study
+such
+support
+sure
+system
+take
+talk
+teach
+team
+tell
+than
+that
+the
+their
+them
+then
+there
+these
+they
+thing
+think
+this
+those
+through
+time
+to
+today
+together
+too
+top
+toward
+town
+tree
+true
+try
+turn
+two
+under
+understand
+up
+us
+use
+usually
+value
+very
+view
+wait
+walk
+want
+water
+way
+we
+well
+what
+when
+where
+which
+while
+white
+who
+why
+will
+with
+without
+word
+work
+world
+would
+write
+year
+yes
+you
+young
+your
+zero
+# Hyphenated entries
+well-known
+long-term
+short-term
+full-time
+part-time
+high-quality
+user-friendly
+self-esteem
+mother-in-law
+up-to-date
+state-of-the-art
+# Phrases and phrasal verbs
+look up
+look after
+look for
+look forward to
+look out
+take off
+take care
+take part
+get up
+get in
+get out
+get along
+give up
+give back
+go on
+go out
+come back
+come in
+come across
+put on
+put off
+put away
+pick up
+set up
+set off
+turn on
+turn off
+turn around
+break down
+break into
+carry on
+carry out
+find out
+grow up
+hold on
+keep up
+move on
+run out
+work out
+wake up
+write down
+sit down
+stand up
+point out
+check in
+check out
+log in
+log out
+sign up
+show up
+slow down
+calm down
+cheer up
+hurry up
+make up
+bring up
+use up
+fill in
+fill out
+hand in
+hand out
+try on
+all of a sudden
+as well
+in fact
+of course
+on time
+by the way
+a lot
+no longer
+once again
+ice cream
+hot dog
+post office
+real estate
+social media
+climate change
+machine learning
+artificial intelligence
+mobile phone
+search engine
+web browser
+credit card
+public transport
+high school
+primary school
+human being
+global warming
+renewable energy
+remote work
+online shopping

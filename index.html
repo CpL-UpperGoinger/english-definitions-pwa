@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f5f3ed">
+  <meta name="description" content="英释随心查：简洁、离线可用的英英释义查询工具。">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="英释随心查">
+  <title>英释随心查 · English definitions</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="英释随心查首页">
+        <span class="brand-mark" aria-hidden="true">A</span>
+        <span>英释随心查</span>
+      </a>
+      <button class="back-button" id="back-button" type="button" aria-label="返回搜索结果" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg>
+        返回
+      </button>
+    </header>
+
+    <main>
+      <section class="search-panel" id="search-panel" aria-label="查词">
+        <div class="hero-copy" id="hero-copy">
+          <p class="eyebrow">ENGLISH DEFINITIONS</p>
+          <h1>读懂单词，<br><span>从英文解释开始。</span></h1>
+          <p class="hero-description">不被翻译束缚，直接理解单词本来的意思。</p>
+        </div>
+
+        <form class="search-form" id="search-form" role="search" novalidate>
+          <div class="search-box">
+            <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
+            <label class="sr-only" for="search-input">输入英文单词或短语</label>
+            <input id="search-input" name="q" type="text" placeholder="输入英文单词或短语"
+              maxlength="40" pattern="[A-Za-z \-]*" autocapitalize="none" autocomplete="off"
+              spellcheck="false" enterkeyhint="search" autofocus>
+            <button class="clear-button" id="clear-button" type="button" aria-label="清空输入" hidden>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m9 9 6 6m0-6-6 6"/></svg>
+            </button>
+          </div>
+          <button class="search-submit" type="submit">查询</button>
+        </form>
+        <p class="input-hint">支持英文字母、连字符和空格</p>
+        <p class="load-status" id="load-status" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="home-note" id="home-note" aria-label="应用特点">
+        <div class="note-line"><span></span><p>本地词库 · 无需账号 · 可添加到主屏幕</p><span></span></div>
+        <div class="word-samples" aria-label="查词示例">
+          <button type="button" data-word="word">word</button>
+          <button type="button" data-word="well-known">well-known</button>
+          <button type="button" data-word="look up">look up</button>
+        </div>
+      </section>
+
+      <section class="results" id="results" aria-label="匹配词条" hidden>
+        <div class="results-heading">
+          <h2 id="results-title">匹配词条</h2>
+          <span id="result-count"></span>
+        </div>
+        <div class="result-list" id="result-list"></div>
+        <div class="empty-state" id="empty-state" hidden>
+          <div class="empty-mark" aria-hidden="true">?</div>
+          <h2>没有找到这个词</h2>
+          <p id="empty-message"></p>
+          <button type="button" id="empty-clear">重新输入</button>
+        </div>
+      </section>
+
+      <section class="entry-view" id="entry-view" aria-live="polite" hidden></section>
+    </main>
+
+    <footer class="footer" id="footer">
+      <span id="data-summary">开放词库 · 英文释义</span>
+      <button type="button" id="license-button">数据与许可</button>
+    </footer>
+  </div>
+
+  <dialog class="license-dialog" id="license-dialog" aria-labelledby="license-title">
+    <form method="dialog">
+      <button class="dialog-close" aria-label="关闭">×</button>
+    </form>
+    <p class="eyebrow">OPEN DICTIONARY DATA</p>
+    <h2 id="license-title">数据与许可</h2>
+    <p>英文释义来自 English Wiktionary，结构化数据由 FreeDictionaryAPI.com 提供。词条内容采用 CC BY-SA 4.0 许可。</p>
+    <p>每个词条底部都保留了原 Wiktionary 页面链接。应用代码与词典内容分别适用各自许可。</p>
+    <div class="license-links">
+      <a href="https://en.wiktionary.org/" target="_blank" rel="noopener noreferrer">访问 Wiktionary ↗</a>
+      <a href="https://freedictionaryapi.com/" target="_blank" rel="noopener noreferrer">数据接口说明 ↗</a>
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0 ↗</a>
+    </div>
+  </dialog>
+</body>
+</html>
