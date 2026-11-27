@@ -278,7 +278,7 @@ main { flex: 1; }
 }
 .empty-state h2 { margin: 0; font-size: 19px; }
 .empty-state p { margin: 10px 0 20px; color: var(--muted); font-size: 14px; line-height: 1.7; }
-.empty-state button {
+.empty-state button, .entry-error button {
   min-height: 44px;
   padding: 0 20px;
   border: 1px solid var(--accent);
@@ -287,6 +287,10 @@ main { flex: 1; }
   background: transparent;
   cursor: pointer;
 }
+.empty-actions, .error-actions { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; }
+.empty-state .primary-action, .entry-error .primary-action { color: #fff; background: var(--accent); }
+.empty-state button:disabled, .entry-error button:disabled { opacity: .6; cursor: wait; }
+.cached-label { padding: 2px 7px; border-radius: 999px; color: var(--accent); background: var(--accent-soft); font-size: 10px; }
 
 .entry-view { padding: 18px 0 30px; }
 .entry-card { overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--surface); }
@@ -337,7 +341,7 @@ main { flex: 1; }
 .entry-error { padding: 48px 20px; text-align: center; }
 .entry-error h1 { margin: 0 0 12px; font-size: 22px; }
 .entry-error p { color: var(--muted); line-height: 1.7; }
-.entry-error button { min-height: 44px; padding: 0 18px; border: 1px solid var(--accent); border-radius: 999px; color: var(--accent); background: transparent; }
+.entry-error .error-actions { margin-top: 20px; }
 
 .footer {
   min-height: 52px;

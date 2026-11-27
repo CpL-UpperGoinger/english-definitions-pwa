@@ -1,7 +1,7 @@
 "use strict";
 
-const SHELL_CACHE = "yingshi-shell-v1";
-const DATA_CACHE = "yingshi-data-v1";
+const SHELL_CACHE = "yingshi-shell-v2";
+const DATA_CACHE = "yingshi-data-v2";
 const APP_SHELL = [
   "./",
   "./index.html",

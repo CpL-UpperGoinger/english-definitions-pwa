@@ -70,9 +70,12 @@
         <div class="result-list" id="result-list"></div>
         <div class="empty-state" id="empty-state" hidden>
           <div class="empty-mark" aria-hidden="true">?</div>
-          <h2>没有找到这个词</h2>
+          <h2 id="empty-title">没有找到这个词</h2>
           <p id="empty-message"></p>
-          <button type="button" id="empty-clear">重新输入</button>
+          <div class="empty-actions">
+            <button type="button" id="empty-clear">重新输入</button>
+            <button type="button" id="online-button" class="primary-action" hidden>在线补查</button>
+          </div>
         </div>
       </section>
 
@@ -91,11 +94,12 @@
     </form>
     <p class="eyebrow">OPEN DICTIONARY DATA</p>
     <h2 id="license-title">数据与许可</h2>
-    <p>英文释义来自 English Wiktionary，结构化数据由 FreeDictionaryAPI.com 提供。词条内容采用 CC BY-SA 4.0 许可。</p>
-    <p>每个词条底部都保留了原 Wiktionary 页面链接。应用代码与词典内容分别适用各自许可。</p>
+    <p>本地英文释义来自 English Wiktionary，经 kaikki.org / Wiktextract 结构化处理。本地未收录的词条可由你主动通过 FreeDictionaryAPI.com 在线补查。词条内容采用 CC BY-SA 4.0 许可。</p>
+    <p>在线查到的词条仅缓存于当前浏览器，可离线回看。每个词条底部都保留了原 Wiktionary 页面链接。应用代码与词典内容分别适用各自许可。</p>
     <div class="license-links">
       <a href="https://en.wiktionary.org/" target="_blank" rel="noopener noreferrer">访问 Wiktionary ↗</a>
-      <a href="https://freedictionaryapi.com/" target="_blank" rel="noopener noreferrer">数据接口说明 ↗</a>
+      <a href="https://kaikki.org/dictionary/English/index.html" target="_blank" rel="noopener noreferrer">kaikki.org 本地数据 ↗</a>
+      <a href="https://freedictionaryapi.com/" target="_blank" rel="noopener noreferrer">在线补查接口 ↗</a>
       <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0 ↗</a>
     </div>
   </dialog>

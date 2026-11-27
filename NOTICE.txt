@@ -5,10 +5,12 @@ Copyright (c) 2026 英释随心查 contributors
 Licensed under the MIT License. See LICENSE.
 
 Dictionary content
-English definitions are derived from English Wiktionary and obtained in
-structured form through FreeDictionaryAPI.com.
+Bundled English definitions are derived from English Wiktionary and obtained in
+structured form through kaikki.org / Wiktextract. Optional user-initiated online
+lookups use FreeDictionaryAPI.com and are cached only in the current browser.
 
 Wiktionary: https://en.wiktionary.org/
+kaikki.org: https://kaikki.org/dictionary/English/index.html
 FreeDictionaryAPI.com: https://freedictionaryapi.com/
 Content license: Creative Commons Attribution-ShareAlike 4.0 International
 https://creativecommons.org/licenses/by-sa/4.0/
@@ -19,7 +21,8 @@ text was not edited. Each entry links back to its original Wiktionary page.
 No dictionary audio is bundled. No account, advertising, analytics, or tracking
 service is included.
 
-The bundled data set is a curated starter collection. Its exact entry count,
-build date, source information, missing entries, and fetch failures are recorded
-in data/meta.json and data/build-report.json. To expand or refresh it, edit
-tools/words.txt and run tools/build_dictionary.py locally.
+The bundled data set is a frequency-ranked, curated collection of approximately
+100,000 entries. Its exact entry count, build date, source information and build
+statistics are recorded in data/meta.json and data/build-report.json. Rebuild it
+with tools/build_large_dictionary.py; the multi-gigabyte source is not deployed.
+The smaller API-based builder remains available as tools/build_dictionary.py.
